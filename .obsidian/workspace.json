@@ -11,10 +11,14 @@
             "id": "843a9569de1f80c8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "templates/daily-note.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "daily-note"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "templates/daily-note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "daily-note 的反向链接列表"
             }
           },
           {
@@ -177,54 +182,20 @@
       "bases:新建数据库": false
     }
   },
-  "floating": {
-    "id": "a895779a77702289",
-    "type": "floating",
-    "children": [
-      {
-        "id": "f33996f115073299",
-        "type": "window",
-        "children": [
-          {
-            "id": "81ca3b25eed2de1b",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "2d8cee85d96ef16f",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "新标签页"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1020,
-        "y": 56,
-        "width": 600,
-        "height": 760,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "843a9569de1f80c8",
   "lastOpenFiles": [
+    "00-知识库索引.md",
+    "欢迎.md",
+    "未命名.base",
+    "daily-2026-05-21.md",
+    "daily-learnings.md",
+    "learning-roadmap.md",
+    "memory-expansion.md",
+    "obsidian-setup.md",
+    "skills-index.md",
+    "daily-learn.sh",
     "templates/daily-note.md",
     "templates",
-    "skills-index.md",
-    "obsidian-setup.md",
-    "memory-expansion.md",
-    "learning-roadmap.md",
-    "daily-learnings.md",
-    "daily-2026-05-21.md",
-    "00-知识库索引.md",
-    "未命名.base",
-    "2026-05-22.md",
-    "欢迎.md"
+    "2026-05-22.md"
   ]
 }
