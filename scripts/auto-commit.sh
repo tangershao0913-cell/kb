@@ -22,6 +22,13 @@ git commit -m "$COMMIT_MSG" >> "$LOG" 2>&1
 
 if [ $? -eq 0 ]; then
     echo "[$(date '+%Y-%m-%d %H:%M')] ✓ 已提交: $COMMIT_MSG" >> "$LOG"
+    # 自动 push
+    git push origin master >> "$LOG" 2>&1
+    if [ $? -eq 0 ]; then
+        echo "[$(date '+%Y-%m-%d %H:%M')] ✓ 已推送" >> "$LOG"
+    else
+        echo "[$(date '+%Y-%m-%d %H:%M')] ✗ push 失败（可能无网络或凭证过期）" >> "$LOG"
+    fi
 else
     echo "[$(date '+%Y-%m-%d %H:%M')] ✗ 提交失败" >> "$LOG"
 fi
